@@ -30,9 +30,9 @@ We have two options:
    ("external CSS").
 
 In our case, we want to provide a link to our style sheet, instead of writing
-all of our CSS code directly in the  `<style>` tag. This allows us to only have
+all of our CSS code directly in the `<style>` tag. This allows us to only have
 to write styles for the entire site once, instead of repeating every `<style>`
-element on every page.  A common workflow is to see developers work on CSS
+element on every page. A common workflow is to see developers work on CSS
 inside of the `<style>` tag until their styling is done. At that point, they
 move it to their external file and remove the `<style>` element from the HTML
 page. Feel free to try it out!
@@ -41,8 +41,8 @@ In `index.html`, provide a `<link>` tag which correctly sources the CSS file
 located in this directory. The `<link>` tag will link to our file with an `href`
 attribute, like so:
 
-```HTML
-<link rel="stylesheet" href="relative path to CSS file">
+```html
+<link rel="stylesheet" href="relative path to CSS file" />
 ```
 
 Links to style sheets should go at the end of the `<head>` section! Make sure
@@ -61,7 +61,7 @@ developers remove any possible confusion.
 Hint: Try adding the following temporarily to your `style.css` file to test if
 your linked CSS is working:
 
-```CSS
+```css
 h1 {
   color: red;
 }
@@ -87,7 +87,7 @@ to get a specific visual outcome, use your Google skills with queries such as:
 
 In following the guidelines, you should be referencing the `index.html` to find
 the appropriate tags/IDs that we will use as selectors in our `style.css` file.
-Don't forget: you can use the Chrome Inspector Tool (`cmd  + shift + C` on Mac)
+Don't forget: you can use the Chrome Inspector Tool (`cmd + shift + C` on Mac)
 to inspect specific elements of the DOM (and make trial changes to their CSS) in
 the browser.
 
