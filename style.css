@@ -3,3 +3,36 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  color: red;
+  margin: auto;
+}
+
+a {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #FF7F50;
+}
+
+img {
+  margin: auto;
+  font-size: 10;
+}
+
+p#featured-property {
+  width: 800px;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+div#details {
+  float: left;
+}
+
+div {
+  width: 25%;
+  color: red;
+  margin: auto;
+}
